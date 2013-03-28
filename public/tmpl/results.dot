@@ -1,0 +1,9 @@
+		<h2>Modern Art</h2>
+		{{~it.results :result}}
+		<div class="result" data-id="{{=result.id}}">
+			<img src="" alt="{{=result.title}}" />
+			<h3>{{=result.title}}</h3>
+			<span class="artist-name">{{=result.artist.name}}</span>
+			<span class="price">{{=result.price}}</span>
+		</div>
+		{{~}}

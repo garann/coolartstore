@@ -1,0 +1,26 @@
+
+		<h2>{{=it.title}}</h2>
+		<h3>{{=it.artist.name}}</h3>
+		<img src="" alt="{{=it.title}}" class="active" />
+		<ul class="info">
+			{{~it.info :info_item}}
+			<li>{{=info_item}}</li>
+			{{~}}
+		</ul>
+		<span class="price">{{=it.price}}</span>
+		<button class="main">Purchase</button>
+		<div class="artist">
+			<h3>About the artist: {{=it.artist.name}}</h3>
+			<p>{{=it.artist.summary}} <a href="">More &raquo;</a></p>
+		</div>
+		<div class="related">
+			<h3 class="active">More {{=it.artist.name}}</h3>
+			<h3>More Modern</h3>
+			<br/>
+			<a href=""><img src="" /></a>
+			<a href=""><img src="" /></a>
+			<a href=""><img src="" /></a>
+			<a href=""><img src="" /></a>
+		</div>
+		<a class="prev arrow">☚</a>
+		<a class="next arrow">☛</a>

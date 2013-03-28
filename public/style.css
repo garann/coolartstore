@@ -1,0 +1,142 @@
+body {
+	background-color: #f3f3f3;
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	overflow: hidden;
+}
+h1 { float: left; }
+nav { 
+	float: right; 
+	font-size: 1.5em;
+}
+nav a { padding: 10px 20px; }
+a { 
+	cursor: pointer; 
+	color: #f60;
+	text-decoration: none;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-color: #999;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.content {
+	margin: 50px 10%;
+}
+
+.results {
+	overflow: hidden;
+}
+.result {
+	float: left;
+	margin: 0px 20px 20px;
+	cursor: pointer;
+}
+.result img {
+	width: 210px;
+	height: 280px;
+}
+.result .price {
+	float: right;
+	font-style: italic;
+}
+
+.modal {
+	display: none;
+	position: absolute;
+	width: 800px;
+	height: auto;
+	top: 10%;
+	left: 50%;
+	margin-left: -430px;
+	border: 20px solid #333;
+	outline: 9999px solid rgba(0,0,0,.5);
+	padding: 10px;
+	background-color: #f3f3f3;
+}
+.detail img.active {
+	width: 300px;
+	height: 400px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+.detail .info {
+	margin-left: 300px;
+}
+.detail .price {
+	display: block;
+	font-weight: bold;
+	text-indent: 20px;
+}
+.main {
+	background-color: #f60;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin: 20px;
+	cursor: pointer;
+}
+.related {
+	background-color: #eee;
+	padding: 10px;
+	overflow: hidden;
+}
+.related h3 {
+	display: inline;
+	padding: 10px;
+	background-color: #ccc;
+	color: #666;
+	cursor: pointer;
+}
+.related h3.active {
+	background-color: #eee;
+	color: #333;
+	cursor: text;
+}
+.related a {
+	display: block;
+	float: left;
+	width: 105px;
+	height: 140px;
+	margin: 10px 5px;
+}
+.arrow {
+	position: absolute;
+	font-size: 3em;
+	line-height: 1em;
+	background-color: #eee;
+	padding: 5px;
+	border-radius: 30px;
+	top: 50%;
+	opacity: .3;
+	color: #333;
+}
+.arrow:hover {
+	opacity: .7;
+}
+.prev {
+	left: -90px;
+}
+.next {
+	right: -90px;
+}
+
+
+
+
