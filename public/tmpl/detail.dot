@@ -1,7 +1,7 @@
 
 		<h2>{{=it.title}}</h2>
 		<h3>{{=it.artist.name}}</h3>
-		<img src="" alt="{{=it.title}}" class="active" />
+		<img src="img/{{=it.id}}.jpg" alt="{{=it.title}}" class="active" />
 		<ul class="info">
 			{{~it.info :info_item}}
 			<li>{{=info_item}}</li>
