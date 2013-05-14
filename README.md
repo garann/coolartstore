@@ -1,6 +1,7 @@
 # CoolArtStore
 
-A demo project showing the minimum pieces of designing an application using Node.js as a mock platform.
+A demo project showing the minimum pieces of designing an application using Node.js as a mockup platform. 
+The jQuery framework is used in the javascript.
 
 
 
@@ -8,6 +9,6 @@ This repository contains everything you need to get the demo running locally on 
 
 ```node server.js```
 
-To see the demo in action, navigate to http://localhost:3000 in your browser. 
+To see the demo in action, navigate to http://localhost:3000 in your browser. You may need to open port 3000/tcp and 3000/udp on your server by changing the machine's firewall rules. If you want to use a different port, change the app.listen line in server.js to the port number of your preference and make sure the appropriate port is opened on the firewall. Ports higher than 1024 are historically "unprivileged" so you should not have to run coolartstore as a superuser. They should be accessible to any standard user.  
 
 To tweak and make changes, just edit the relevant files, save, and restart the server. Use ^C to stop the current execution, then `node server.js` again to restart.
