@@ -1,7 +1,7 @@
 # CoolArtStore
 
 A demo project showing the minimum pieces of designing an application using Node.js as a mockup platform. 
-The jQuery framework is used in the javascript.
+The client-side JavaScript requires jQuery.
 
 
 
